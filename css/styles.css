@@ -1,6 +1,6 @@
 html {
-  margin: 0 10%;
-  background-color: black
+  margin: 0 20%;
+  background-color: #f1eee9;
 }
 
 h1, h2 {
@@ -11,8 +11,18 @@ h1, h2 {
 
 body {
   text-align: center;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
   border: 1px dashed #2e2e2e;
-  background-color: #fafaf9;
+  background-color: #fff;
+}
 
+div.container {
+  text-align: center;
+}
+
+ul.centered-UL {
+  display: inline-block;
+  text-align: left;
+  margin: 10px auto;
 }
